@@ -69,7 +69,7 @@ SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.
 SMOTEENN is a two-step process:
 +	
 i.	Oversample the minority class with SMOTE.
-+	
+	
 ii.	Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
 
 ## Challenge Overview
@@ -89,7 +89,7 @@ Download Module -17-Challenge-Resources.zip
 
 You will:
 
-Oversample the data using the RandomOverSampler and SMOTE algorithms.
+Over sample the data using the RandomOverSampler and SMOTE algorithms.
 Undersample the data using the cluster centroids algorithm.
 Use a combination approach with the SMOTEENN algorithm.
 For each of the above, you’ll:
@@ -114,7 +114,7 @@ Print the classification report (classification_report_imbalanced from imblearn.
 For the BalancedRandomForestClassifier, print the feature importance, sorted in descending order (from most to least important feature), along with the feature score.
 Lastly, you’ll write a brief summary and analysis of the models’ performance. Describe the precision and recall scores, as well as the balanced accuracy score. Additionally, include a final recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-## vSubmission
+## Submission
 Host your challenge assignment on GitHub, including:
 
 Your Jupyter Notebook file(s) with your code and analysis.
