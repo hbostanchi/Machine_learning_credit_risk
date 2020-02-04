@@ -21,15 +21,16 @@ Machine learning is the use of statistical algorithms to perform tasks such as l
 supervised, unsupervised, and deep. For our purposes, we only discussed supervised and unsupervised learning.
 +	Supervised learning deals with labeled data.
 +	Unsupervised learning algorithms work with datasets without labeled outcomes.
-In supervised learning, the labels provide the correct answers. In unsupervised learning, such correct answers, or labels, aren’t provided.
-Supervised learning can be broadly divided into regression and classification.
+
+### In supervised learning, the labels provide the correct answers. In unsupervised learning, such correct answers, or labels, aren’t provided.
+### Supervised learning can be broadly divided into regression and classification.
 +	Regression is used to predict continuous variables.The regression model’s algorithms attempt to learn patterns that exist among factors given. If presented with new data, the model will make a prediction, based on previously learned patterns from the dataset.
 +	Classification is used to predict discrete outcomes.The classification model’s algorithms attempts to learn patterns from the data, and if the model is successful, gain the ability to make accurate predictions.
 There is a major difference between regression and classification models. In regression a continuous variable can be any numerical value within a certain range. In classification, on the other hand, the target variable only has two possible values.
 A basic pattern applies whether we’re using regression or classification:
-•	A machine learning model is presented with a dataset.
-•	The model algorithms analyze the data and attempt to identify patterns.
-•	Based on these patterns, the model makes predictions on new data.
++	A machine learning model is presented with a dataset.
++	The model algorithms analyze the data and attempt to identify patterns.
++	Based on these patterns, the model makes predictions on new data.
 Create training and test groups from a given data set.
 -Training dataset to learn from it.
 -Testing dataset to assess its performance.
