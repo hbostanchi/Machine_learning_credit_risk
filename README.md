@@ -117,6 +117,21 @@ Lastly, you’ll write a brief summary and analysis of the models’ performance
 ## Submission
 Host your challenge assignment on GitHub, including:
 
+
+## Analysis
+Naive Random Oversampling The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the 0.63 for low-risk and 0.65 for high-risk. The balanced accuracy score is 0.63.
+
+SMOTE Oversampling The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same 0.65 for low-risk and 0.61 for high-ris) for both categories. The balanced accuracy score is 0.63, which is pretty low.
+
+Undersampling The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same 0.4 for low-risk and 0.63 for high-risk for both categories. The balanced accuracy score is 0.51, which is low.
+
+Combination Sampling The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same 0.74 for low-risk and 0.53 for high-risk for both categories. The balanced accuracy score is 0.63, which is pretty low.
+
+Balanced Random Forest Classifier The precision score are 1.00 for predicting low-risk and 0.04 for predicting high-risk. The recall score is about the same 0.67 for low-risk and 0.9 for high-risk for both categories. The balanced accuracy score is 0.78, which is the highest.
+
+Conclusion and Recommendations Looking at all the different models, we observe that Combination Sampling and SMOTE Oversampling performs the same so there is no point to do a Combination Sampling.but having the Balanced Random Forest Classifie model with the highest accurecy score, we would perform more analysis on Balanced Random Forest Classifier model.
+
+
 Your Jupyter Notebook file(s) with your code and analysis.
 Your dataset.
 A README.md file describing your project.
