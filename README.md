@@ -100,11 +100,11 @@ Generate a confusion_matrix.
 Print the classification report (classification_report_imbalanced from imblearn.metrics).
 Lastly, you’ll write a brief summary and analysis of the models’ performance. Describe the precision and recall scores, as well as the balanced accuracy score. Additionally, include a final recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-Extension
+## Extension
 For the extension, you’ll train and compare two different ensemble classifiers to predict loan risk and evaluate each model. Note that you’ll use the following modules, which you have not used before. They are very similar to ones you’ve seen: BalancedRandomForestClassifier and EasyEnsembleClassifier, both from imblearn.ensemble. These modules combine resampling and model training into a single step. Consult the following documentation for more details:
 
-Section 5.1.2. Forest of randomized trees
-imblearn.ensemble.EasyEnsembleClassifier
+Section 5.1.2. Forest of randomized trees (Links to an external site.)
+imblearn.ensemble.EasyEnsembleClassifier (Links to an external site.)
 Use 100 estimators for both classifiers, and complete the following steps for each model:
 
 Train the model and generate predictions.
